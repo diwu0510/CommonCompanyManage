@@ -3,9 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HZC.Core", "HZC.Core\HZC.Core.csproj", "{E23D5AB7-1043-4C5C-A039-C7F4FA842180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.基础设施层", "1.基础设施层", "{DB4CC4D7-0FE9-4C8A-AFC6-17FF0339827B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.数据工具层", "2.数据工具层", "{CA70A883-7DA1-4DBD-9C22-FBFFB3769B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.通用工具层", "3.通用工具层", "{17B3B2C6-E379-4B53-A5BE-F5800CB4CABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.业务逻辑层", "4.业务逻辑层", "{043968E8-D693-421F-A96B-123D9F4FD40E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.应用层", "5.应用层", "{D3C5CDA0-B173-4862-B3EE-C52A17BC2A46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HZC.DbUtil", "HZC.DbUtil\HZC.DbUtil.csproj", "{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HZC.Services", "HZC.Services\HZC.Services.csproj", "{4938E094-89EB-407B-B65D-C35CCDA46121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HZC.Utils", "HZC.Utils\HZC.Utils.csproj", "{2EB7005D-A7BD-4160-938E-328B5B5B98DA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E23D5AB7-1043-4C5C-A039-C7F4FA842180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23D5AB7-1043-4C5C-A039-C7F4FA842180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23D5AB7-1043-4C5C-A039-C7F4FA842180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23D5AB7-1043-4C5C-A039-C7F4FA842180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4938E094-89EB-407B-B65D-C35CCDA46121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4938E094-89EB-407B-B65D-C35CCDA46121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4938E094-89EB-407B-B65D-C35CCDA46121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4938E094-89EB-407B-B65D-C35CCDA46121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB7005D-A7BD-4160-938E-328B5B5B98DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB7005D-A7BD-4160-938E-328B5B5B98DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB7005D-A7BD-4160-938E-328B5B5B98DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB7005D-A7BD-4160-938E-328B5B5B98DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E23D5AB7-1043-4C5C-A039-C7F4FA842180} = {DB4CC4D7-0FE9-4C8A-AFC6-17FF0339827B}
+		{BF5D2624-1CB5-478A-A0D0-AD57F5C4D322} = {CA70A883-7DA1-4DBD-9C22-FBFFB3769B81}
+		{4938E094-89EB-407B-B65D-C35CCDA46121} = {043968E8-D693-421F-A96B-123D9F4FD40E}
+		{2EB7005D-A7BD-4160-938E-328B5B5B98DA} = {17B3B2C6-E379-4B53-A5BE-F5800CB4CABD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E5817F8-F5EF-4263-B2F5-E94DDCF3DE6C}
